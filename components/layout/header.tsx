@@ -60,13 +60,13 @@ const mainNavItems = [
   },
   {
     title: "Resources",
-    href: "/blog",
+    href: "#",
     children: [
-      {
-        title: "Blog",
-        href: "/blog",
-        description: "Latest insights and tips",
-      },
+      // {
+      //   title: "Blog",
+      //   href: "/blog",
+      //   description: "Latest insights and tips",
+      // },
       {
         title: "Help Center",
         href: "/help",

@@ -111,7 +111,7 @@ export function Footer() {
                 {[
                   { name: "About Us", href: "/about" },
                   { name: "Careers", href: "/careers" },
-                  { name: "Blog", href: "/blog" },
+                  // { name: "Blog", href: "/blog" },
                   { name: "Contact", href: "/contact" },
                   { name: "Press", href: "/press" },
                 ].map((link) => (
