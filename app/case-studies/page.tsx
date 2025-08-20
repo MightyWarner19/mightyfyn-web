@@ -106,18 +106,18 @@ export default function CaseStudiesPage() {
                   ))}
                 </div>
 
-                <Link href="/case-studies/techstart-solutions">
+                {/* <Link href="/case-studies/techstart-solutions">
                   <Button className="bg-[#961128] hover:bg-[#7a0e20] text-white">
                     Read Full Case Study
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                </Link>
+                </Link> */}
               </div>
 
               <div className="relative">
                 <div className="bg-gradient-to-br from-[#961128] to-[#26426d] rounded-3xl p-8 shadow-2xl">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041853.jpg?t=st=1755669210~exp=1755672810~hmac=1fbeec01ef22fdd7692e2ce62ee721b8246e0308f977ddf1a5afd8ceafcf3de7&w=740"
                     alt="TechStart Solutions Dashboard"
                     width={600}
                     height={400}
@@ -137,7 +137,7 @@ export default function CaseStudiesPage() {
               <div className="relative lg:order-1">
                 <div className="bg-gradient-to-br from-[#26426d] to-[#961128] rounded-3xl p-8 shadow-2xl">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="https://img.freepik.com/free-photo/factory-workshop-interior-machines-glass-production-background_645730-396.jpg?t=st=1755668224~exp=1755671824~hmac=dee7abb2ccd08be1fa808bd4f11d9de8022cbdc7ed6715a846a6ddd02536dfb7&w=360"
                     alt="Global Manufacturing Corp Dashboard"
                     width={600}
                     height={400}
@@ -198,20 +198,20 @@ export default function CaseStudiesPage() {
                   ))}
                 </div>
 
-                <Link href="/case-studies/global-manufacturing">
+                {/* <Link href="/case-studies/global-manufacturing">
                   <Button className="bg-[#26426d] hover:bg-[#1e3557] text-white">
                     Read Full Case Study
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
             {/* Case Study 3 */}
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-to-br from-green-600 to-green-700 w-16 h-16 rounded-2xl flex items-center justify-center">
+                  <div className="bg-gradient-to-br from-[#26426d] to-[#1e3557] w-16 h-16 rounded-2xl flex items-center justify-center">
                     <Briefcase className="h-8 w-8 text-white" />
                   </div>
                   <div>
@@ -267,7 +267,7 @@ export default function CaseStudiesPage() {
               <div className="relative">
                 <div className="bg-gradient-to-br from-green-600 to-green-700 rounded-3xl p-8 shadow-2xl">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="https://img.freepik.com/free-photo/concentrated-colleagues-watching-statistic-charts-talking-about-work-professional-senior-managers-young-assistant-preparing-business-plan-teamwork-management-partnership-concept_74855-14229.jpg"
                     alt="Martinez & Associates Dashboard"
                     width={600}
                     height={400}
@@ -280,7 +280,7 @@ export default function CaseStudiesPage() {
                   <div className="text-xs text-green-600">Industry leading</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -8,6 +8,7 @@ import {
   TrendingUp,
   Star,
 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 type ButtonSize = "lg" | string;
 
@@ -103,6 +104,7 @@ const TrustBadge = ({
 export default function HeroSection() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const videoRef = useRef<HTMLVideoElement>(null);
+  const router = useRouter();
 
   useEffect(() => {
     const handleMouseMove = (e: any) => {
@@ -215,13 +217,14 @@ export default function HeroSection() {
                 <ArrowRight className="ml-3 h-6 w-6" />
               </Button>
 
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-2 border-[#26426d]/30 text-white hover:border-[#26426d] focus:ring-[#26426d]/20"
-              >
-                See Plan & Pricing
-              </Button>
+                <Button
+                  onClick={() => router.push("/pricing")}
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-[#26426d]/30 text-white hover:border-[#26426d] focus:ring-[#26426d]/20"
+                >
+                  See Plan & Pricing
+                </Button>
             </div>
 
             {/* Enhanced Social Proof */}
