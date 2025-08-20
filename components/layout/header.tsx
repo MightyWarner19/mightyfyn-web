@@ -176,7 +176,7 @@ export function Header() {
           {/* Right Side - Auth & CTA */}
           <div className="flex items-center space-x-4">
             <Link
-              href="/login"
+              href="#"
               className="hidden md:block text-gray-700 hover:text-[#961128] transition-colors font-medium"
             >
               Sign In
@@ -229,7 +229,7 @@ export function Header() {
               ))}
               <div className="pt-4 border-t border-gray-100">
                 <Link
-                  href="/login"
+                  href="#"
                   className="block text-gray-700 hover:text-[#961128] transition-colors font-medium text-lg"
                   onClick={() => setMobileMenuOpen(false)}
                 >
